@@ -78,7 +78,7 @@
 }
 
 - (BOOL)prefersStatusBarHidden{
-    return YES;
+    return _browserOptions.hidestatusbar;
 }
 
 - (void)open:(CDVInvokedUrlCommand*)command
